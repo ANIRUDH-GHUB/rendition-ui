@@ -1,7 +1,5 @@
 import React from "react";
 import "./TOC.css";
-import { toc } from "./stub";
-import { Link, Outlet } from "react-router-dom";
 import Scrollspy from "react-scrollspy";
 
 function TOC() {
@@ -15,10 +13,10 @@ function TOC() {
             // offset={-100}
           >
             <li>
-              <a>React</a>
+              <a href="#section1">React</a>
             </li>
             <li>
-              <a>Angular</a>
+              <a href="#section2">Angular</a>
               <Scrollspy
                 items={["section2-1", "section2-2"]}
                 currentClassName="is-current"

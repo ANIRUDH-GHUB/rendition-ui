@@ -13,7 +13,7 @@ function Sections() {
         <div id={`section${index + 1}`} class="section-wrapper">
           <h2>{section.title}</h2>
           <p>{section.data}</p>
-          {index == 1 && (
+          {index === 1 && (
             <>
               <h3 id={`section2-1`}>{section.title} 1.0</h3>
               <p>{section.data}</p>
